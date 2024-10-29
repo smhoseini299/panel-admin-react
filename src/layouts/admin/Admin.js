@@ -36,9 +36,13 @@ const Admin = () => {
         <div>
             <Header />
             <Sadebar />
-            <section id="content_section" className='bg-light py-2 px-3'></section>
+            <section id="content_section" className={`bg-light py-2 px-3 `}>
+
+            </section>
         </div>
     );
 };
 
 export default Admin;
+
+// ${showSidebar? "with_sidebar":null}
