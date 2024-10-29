@@ -8,9 +8,9 @@ const Sadebar = () => {
                     <ul className="p-0 m-0">
                         <li className="pt-1 pb-2 d-flex flex-column avatar_li position-relative">
                     <span className="avatar_box">
-                        <img className="w-100 rounded-circle" src="/assets/images/avatar/user2.jpg"/>
+                        <img className="w-100 rounded-circle" src="/assets/images/avatar/user2.png"/>
                     </span>
-                            <div className="sidebar_avatar_name text-center hiddenable">قاسم بساکی</div>
+                            <div className="sidebar_avatar_name text-center hiddenable">ایمان حسینی</div>
                         </li>
                         <li className="py-1 text-start pe-4 sidebar_menu_item mt-2 active" data-section-id="dashboard_section" >
                             <i className="ms-3 icon fas fa-tachometer-alt text-light"></i>
