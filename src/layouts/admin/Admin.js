@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import Header from './Header/Header'
 import Sadebar from "./Sidebar/Sadebar";
+import Dashboard from '../../page/dashboard/Dashboard';
+
 
 const Admin = () => {
 
@@ -37,7 +39,7 @@ const Admin = () => {
             <Header />
             <Sadebar />
             <section id="content_section" className={`bg-light py-2 px-3 `}>
-
+                <Dashboard/>
             </section>
         </div>
     );
