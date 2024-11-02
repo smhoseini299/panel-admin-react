@@ -19,6 +19,18 @@ body{
 }
 
 
+ .fixed-top{
+    z-index: unset !important;
+}
+
+#sidebar_section{
+    z-index: unset !important;
+}
+.modal-backdrop.fade {
+     display: none;
+}
+
+
 /* scrollbars ------------------ */
 ::-webkit-scrollbar{
     width: 5px !important;
@@ -368,6 +380,9 @@ td , th {
     background: -moz-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 );
 }
+
+
+
 
 
 /* content end-------<<<<<<< */
