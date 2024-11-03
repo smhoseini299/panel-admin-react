@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import Category from "./category/Category";
+import Product from './product/Product';
 
 
 export default function Content() {
@@ -19,7 +20,8 @@ export default function Content() {
     return (
         <section id="content_section" className={`bg-light py-2 px-3 `}>
             {/* <Dashboard/> */}
-           <Category/>
+           {/* <Category/> */}
+           <Product/>
         </section>
     )
 }

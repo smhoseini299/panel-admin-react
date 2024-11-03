@@ -19,16 +19,17 @@ body{
 }
 
 
- .fixed-top{
+ /* .fixed-top{
     z-index: unset !important;
 }
 
 #sidebar_section{
     z-index: unset !important;
-}
+} */
+
 .modal-backdrop.fade {
      display: none;
-}
+} 
 
 
 /* scrollbars ------------------ */
