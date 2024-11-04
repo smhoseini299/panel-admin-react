@@ -20,8 +20,8 @@ export default function Content() {
     return (
         <section id="content_section" className={`bg-light py-2 px-3 `}>
             {/* <Dashboard/> */}
-           {/* <Category/> */}
-           <Product/>
+           <Category/>
+           {/* <Product/> */}
         </section>
     )
 }
